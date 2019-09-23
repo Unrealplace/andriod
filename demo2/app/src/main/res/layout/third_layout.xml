@@ -4,20 +4,18 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/main_btn1"
+        android:id="@+id/third_btn"
+        android:text="click me"
+        android:onClick="createNewActivity"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="normal">
-
-    </Button>
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/main_btn2"
+        android:id="@+id/third_btn2"
+        android:text="disMiss"
+        android:onClick="disMissClick"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="not normal">
-
-    </Button>
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
